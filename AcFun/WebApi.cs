@@ -160,28 +160,24 @@ namespace AcFun
                         "var src = ''; myVideo.play();" +
                         "</script>";
 
-                    byte[] buffer = System.Text.Encoding.UTF8.GetBytes(html);
+                    byte[] buffer = Encoding.UTF8.GetBytes(html);
 
                     ctx.Response.ContentLength64 = buffer.Length;
                     ctx.Response.OutputStream.Write(buffer, 0, buffer.Length);
                 }
                 else
                 {
-                    ctx.Response.StatusCode = 200;
-                    ctx.Response.ContentType = "application/json;charset=UTF-8";
-                    ctx.Response.ContentEncoding = Encoding.UTF8;
-                    ctx.Response.AppendHeader("Content-Type", "application/json;charset=UTF-8");
-
-                    using (StreamWriter writer = new StreamWriter(ctx.Response.OutputStream, Encoding.UTF8))
+                    try
                     {
+                        string html = "Request Error";
+                        byte[] buffer = Encoding.UTF8.GetBytes(html);
 
-                        writer.Write("{" +
-                            $"\"code\" : {ctx.Response.StatusCode}," +
-                            "\"message\" : \"failed\"," +
-                            "\"error\" : \"parm error\"" +
-                            "}");
-                        writer.Close();
-                        ctx.Response.Close();
+                        ctx.Response.ContentLength64 = buffer.Length;
+                        ctx.Response.OutputStream.Write(buffer, 0, buffer.Length);
+                    }
+                    catch(Exception ex)
+                    {
+                        Util.Print(ex.Message, PrintType.ERROR);
                     }
                 }
             }

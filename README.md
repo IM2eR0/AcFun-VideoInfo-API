@@ -1,8 +1,7 @@
 # AcFun-VideoInfo-API
 AcFun视频基本信息解析
 ## 程序运行要求
-- Windows
-- .NET 7 Runtime
+- Windows操作系统，能运行.NET 7就行
 
 ## 使用方式 HTTP/GET
 - 默认情况下，AcFun程序将会在`http://localhost:9966`上开启监听

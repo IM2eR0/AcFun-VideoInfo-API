@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+AcFun/.vs/
+AcFun/bin/
+AcFun/obj/
+AcFun/Properties/

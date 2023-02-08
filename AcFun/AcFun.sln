@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcFun", "AcFun.csproj", "{C1CE2BC4-F003-4AB2-9394-C0C4D02C83EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1CE2BC4-F003-4AB2-9394-C0C4D02C83EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CE2BC4-F003-4AB2-9394-C0C4D02C83EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CE2BC4-F003-4AB2-9394-C0C4D02C83EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CE2BC4-F003-4AB2-9394-C0C4D02C83EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CDB40CC-09E9-47BD-90BA-EBD24E2CE417}
+	EndGlobalSection
+EndGlobal

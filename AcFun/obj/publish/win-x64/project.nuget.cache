@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CuLyy8eRMSzpdreNcGUx6NlXnuampS2V6pUsYN+bBa9f0rjTYn/nuxmEI0UGmGnMoMMDZeiRkfTjnshuM86nmw==",
+  "success": true,
+  "projectFilePath": "E:\\XML5\\source\\repos\\AcFun\\AcFun.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XML5\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\XML5\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.2\\microsoft.netcore.app.runtime.win-x64.7.0.2.nupkg.sha512",
+    "C:\\Users\\XML5\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.2.nupkg.sha512",
+    "C:\\Users\\XML5\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.2\\microsoft.aspnetcore.app.runtime.win-x64.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
